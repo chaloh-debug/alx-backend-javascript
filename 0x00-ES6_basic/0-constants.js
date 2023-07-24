@@ -1,6 +1,5 @@
-#!/usr/bin/node
-const taskFirst = function () {
-  var task = 'I prefer const when I can.';
+export function taskFirst() {
+  const task = 'I prefer const when I can.';
   return task;
 }
 
@@ -8,8 +7,8 @@ export function getLast() {
   return ' is okay';
 }
 
-let taskNext = function () {
-  var combination = 'But sometimes let';
+export function taskNext() {
+  let combination = 'But sometimes let';
   combination += getLast();
 
   return combination;
