@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const taskFirst = function () {
   var task = 'I prefer const when I can.';
   return task;
